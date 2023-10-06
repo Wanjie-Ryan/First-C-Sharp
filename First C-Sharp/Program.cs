@@ -54,11 +54,29 @@ namespace First_C_Sharp
             //Console.WriteLine(num1 + 1);
             //Console.WriteLine(num2 + 1);
 
-            Console.Write("Enter a number:");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter the Second number");
-            int num2 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("The answer is: " + (num1 + num2));
+            //SIMPLE CALCULATOR
+
+            //Console.Write("Enter a number:");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter the Second number:");
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("The answer is: " + (num1 + num2));
+
+            //SIMPLE MADLIB GAME
+
+            string color, pn, celeb;
+
+            Console.Write("Enter your favourite color:");
+             color = Console.ReadLine();
+            Console.Write("Enter any plural noun:");
+             pn = Console.ReadLine();
+            Console.Write("Enter any celebrity you favour:");
+             celeb = Console.ReadLine();
+
+            Console.WriteLine("Roses are " + color);
+            Console.WriteLine( pn+ " are blue");
+            Console.WriteLine("I love " + celeb);
+
 
 
 
