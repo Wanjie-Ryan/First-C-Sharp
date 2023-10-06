@@ -98,7 +98,7 @@ namespace First_C_Sharp
 
 
             //IF STATEMENTS
-
+            /*
             int num = 4;
 
             if (5 < num)
@@ -113,7 +113,11 @@ namespace First_C_Sharp
             {
                 Console.WriteLine("waah saa utadu"); 
             }
+            */
 
+            //SIMPLE CALCULATOR
+
+            SimpleCalc();
 
 
             Console.ReadLine();
@@ -124,5 +128,57 @@ namespace First_C_Sharp
          //   string greeting = "Good Morning";
           //  Console.WriteLine(greeting + " " + name);
         //}
+
+        static void SimpleCalc()
+        {
+
+            string operation;
+
+            double num1,num2;
+            double result;
+
+            Console.WriteLine("A simple Ryan Calc, YES");
+
+            Console.WriteLine("Enter any number:");
+            num1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the operation you want to perform");
+            operation = Console.ReadLine();
+            Console.WriteLine("Enter the second number:");
+            num2 = Convert.ToDouble(Console.ReadLine());
+
+            if(operation == "+")
+            {
+                result = num1 + num2;
+                Console.Write("Answer is:" +result);
+
+            }
+            else if(operation == "-")
+            {
+               result = num1 - num2;
+                Console.Write("Answer is:" + result);
+
+
+            }
+            else if(operation == "/")
+            {
+                result = num2 / num1;
+                Console.Write("Answer is:" + result);
+
+
+            }
+            else if(operation == "*")
+            {
+                result = num1 * num2;
+                Console.Write("Answer is:" + result);
+
+
+            }
+            else
+            {
+                Console.WriteLine("Hey that cannot be done");
+            }
+            
+
+        }
     }
 }
