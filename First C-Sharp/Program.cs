@@ -79,20 +79,29 @@ namespace First_C_Sharp
 
             //ARRAYS
 
-            string[] randoms = new string[5];
-            randoms[0] = "xxxx";
-            randoms[1] = "yyyy";
+            //string[] randoms = new string[5];
+            //randoms[0] = "xxxx";
+            //randoms[1] = "yyyy";
 
-            int[] numbers = { 1, 2, 3, 4, 5, 6, 4, 6, 7 };
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 4, 6, 7 };
 
-            Console.WriteLine(numbers[2]);
-            Console.Write(randoms[0]);
+            //Console.WriteLine(numbers[2]);
+            //Console.Write(randoms[0]);
+
+            // METHODS
 
 
 
 
 
+            Greeting("Wanjiku");
             Console.ReadLine();
+        }
+
+        static void Greeting(string name)
+        {
+            string greeting = "Good Morning";
+            Console.WriteLine(greeting + " " + name);
         }
     }
 }
