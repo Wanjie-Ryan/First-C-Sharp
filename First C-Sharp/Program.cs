@@ -64,18 +64,29 @@ namespace First_C_Sharp
 
             //SIMPLE MADLIB GAME
 
-            string color, pn, celeb;
+            //string color, pn, celeb;
 
-            Console.Write("Enter your favourite color:");
-             color = Console.ReadLine();
-            Console.Write("Enter any plural noun:");
-             pn = Console.ReadLine();
-            Console.Write("Enter any celebrity you favour:");
-             celeb = Console.ReadLine();
+            //Console.Write("Enter your favourite color:");
+            // color = Console.ReadLine();
+            //Console.Write("Enter any plural noun:");
+            // pn = Console.ReadLine();
+            //Console.Write("Enter any celebrity you favour:");
+            // celeb = Console.ReadLine();
 
-            Console.WriteLine("Roses are " + color);
-            Console.WriteLine( pn+ " are blue");
-            Console.WriteLine("I love " + celeb);
+            //Console.WriteLine("Roses are " + color);
+            //Console.WriteLine( pn+ " are blue");
+            //Console.WriteLine("I love " + celeb);
+
+            //ARRAYS
+
+            string[] randoms = new string[5];
+            randoms[0] = "xxxx";
+            randoms[1] = "yyyy";
+
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 4, 6, 7 };
+
+            Console.WriteLine(numbers[2]);
+            Console.Write(randoms[0]);
 
 
 
