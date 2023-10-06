@@ -30,6 +30,7 @@ namespace First_C_Sharp
             num++;
 
 
+            //the difference between writeline and write is that in writeline, it prints a statement and then goes to a new line whilst write prints a statement and remains in the same line
 
             Console.WriteLine("Excited to start off with C# ");
             Console.WriteLine("My name is " + name + "and I am " + age + " years old");
@@ -40,6 +41,12 @@ namespace First_C_Sharp
             Console.WriteLine(prog.ToUpper());
             Console.WriteLine(num);
             Console.WriteLine(Math.Floor(3.5));
+
+            Console.Write("Enter your name:");
+            string your_name = Console.ReadLine();
+            Console.Write("What is your age");
+            string ages = Console.ReadLine();
+            Console.WriteLine("My name is: "+ your_name + " I am " + ages + " years old");
 
 
 
