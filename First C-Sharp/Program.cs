@@ -133,6 +133,7 @@ namespace First_C_Sharp
         {
 
             string operation;
+            int[] numbers = { 2, 4, 5, 6, 7, 8, 10 };
 
             double num1,num2;
             double result;
@@ -148,7 +149,7 @@ namespace First_C_Sharp
 
             if(operation == "+")
             {
-                result = num1 + num2;
+                result = num1 + num2; 
                 Console.Write("Answer is:" +result);
 
             }
@@ -177,6 +178,17 @@ namespace First_C_Sharp
             {
                 Console.WriteLine("Hey that cannot be done");
             }
+
+            for(int i=0; i<numbers.Length; i++)
+            {
+
+                Console.WriteLine(numbers[i]);
+
+            }
+
+            
+
+
             
 
         }
