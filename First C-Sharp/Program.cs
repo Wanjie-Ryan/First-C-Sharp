@@ -13,6 +13,7 @@ namespace First_C_Sharp
 
             //the below is a string
             string name = "Mister";
+            string prog = "This is a" + "Program written in C#";
 
             //this is a character, now the single quotation marks
             char letter = 'c';
@@ -31,6 +32,9 @@ namespace First_C_Sharp
             Console.WriteLine("My name is " + name + "and I am " + age + " years old");
             Console.WriteLine("Hey mahn, C#.");
             Console.WriteLine("Give me 6 months.");
+            Console.WriteLine("");
+            Console.WriteLine("Ryan \nWanjie");
+            Console.WriteLine(prog.ToUpper());
             Console.ReadLine();
         }
     }
