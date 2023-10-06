@@ -94,14 +94,35 @@ namespace First_C_Sharp
 
 
 
-            Greeting("Wanjiku");
+            // Greeting("Wanjiku");
+
+
+            //IF STATEMENTS
+
+            int num = 4;
+
+            if (5 < num)
+            {
+                Console.WriteLine("4 is smaller");
+            }
+            else if (5 > num)
+            {
+                Console.WriteLine("5 is greater true");
+            }
+            else
+            {
+                Console.WriteLine("waah saa utadu");
+            }
+
+
+
             Console.ReadLine();
         }
 
-        static void Greeting(string name)
-        {
-            string greeting = "Good Morning";
-            Console.WriteLine(greeting + " " + name);
-        }
+        //static void Greeting(string name)
+        //{
+         //   string greeting = "Good Morning";
+          //  Console.WriteLine(greeting + " " + name);
+        //}
     }
 }
