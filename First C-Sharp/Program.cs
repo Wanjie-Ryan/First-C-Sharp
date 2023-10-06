@@ -12,41 +12,54 @@ namespace First_C_Sharp
         {
 
             //the below is a string
-            string name = "Mister";
-            string prog = "This is a " + "Program written in C#";
+            //string name = "Mister";
+            //string prog = "This is a " + "Program written in C#";
 
             //this is a character, now the single quotation marks
-            char letter = 'c';
+            //char letter = 'c';
 
-            int age = 10;
+            //int age = 10;
 
             //representing decimal number ...... use float, double, decimal
 
-            double marks = 3.2;
+            //double marks = 3.2;
 
-            bool isMale = true;
+            //bool isMale = true;
 
-            double num = 3.5;
-            num++;
+            //double num = 3.5;
+            //num++;
 
 
             //the difference between writeline and write is that in writeline, it prints a statement and then goes to a new line whilst write prints a statement and remains in the same line
 
-            Console.WriteLine("Excited to start off with C# ");
-            Console.WriteLine("My name is " + name + "and I am " + age + " years old");
-            Console.WriteLine("Hey mahn, C#.");
-            Console.WriteLine("Give me 6 months.");
-            Console.WriteLine("");
-            Console.WriteLine("Ryan \nWanjie");
-            Console.WriteLine(prog.ToUpper());
-            Console.WriteLine(num);
-            Console.WriteLine(Math.Floor(3.5));
+            //Console.WriteLine("Excited to start off with C# ");
+            //Console.WriteLine("My name is " + name + "and I am " + age + " years old");
+            //Console.WriteLine("Hey mahn, C#.");
+            //Console.WriteLine("Give me 6 months.");
+            //Console.WriteLine("");
+            //Console.WriteLine("Ryan \nWanjie");
+            //Console.WriteLine(prog.ToUpper());
+            //Console.WriteLine(num);
+            //Console.WriteLine(Math.Floor(3.5));
 
-            Console.Write("Enter your name:");
-            string your_name = Console.ReadLine();
-            Console.Write("What is your age");
-            string ages = Console.ReadLine();
-            Console.WriteLine("My name is: "+ your_name + " I am " + ages + " years old");
+            //Console.Write("Enter your name:");
+            //string your_name = Console.ReadLine();
+            //Console.Write("What is your age");
+            //string ages = Console.ReadLine();
+            //Console.WriteLine("My name is: "+ your_name + " I am " + ages + " years old");
+
+            //int num1 = Convert.ToInt32("45");
+            //int num2 = Convert.ToInt16("48");
+
+            //Console.WriteLine(num1 + 1);
+            //Console.WriteLine(num2 + 1);
+
+            Console.Write("Enter a number:");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the Second number");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("The answer is: " + (num1 + num2));
+
 
 
 
