@@ -117,7 +117,23 @@ namespace First_C_Sharp
 
             //SIMPLE CALCULATOR
 
-            SimpleCalc();
+            //SimpleCalc();
+
+            try
+            {
+                Console.WriteLine("Enter a number");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter the second number");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+
+            }
+            catch (DivideByZeroException err)
+            {
+                Console.WriteLine(err.Message);
+
+            }
 
 
             Console.ReadLine();
@@ -129,6 +145,8 @@ namespace First_C_Sharp
           //  Console.WriteLine(greeting + " " + name);
         //}
 
+
+        /*
         static void SimpleCalc()
         {
 
@@ -192,5 +210,6 @@ namespace First_C_Sharp
             
 
         }
+        */
     }
 }
