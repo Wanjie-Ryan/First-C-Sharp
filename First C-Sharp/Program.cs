@@ -11,8 +11,20 @@ namespace First_C_Sharp
         static void Main(string[] args)
         {
 
+            //the below is a string
             string name = "Mister";
+
+            //this is a character, now the single quotation marks
+            char letter = 'c';
+
             int age = 10;
+
+            //representing decimal number ...... use float, double, decimal
+
+            double marks = 3.2;
+
+            bool isMale = true;
+
 
 
             Console.WriteLine("Excited to start off with C# ");
